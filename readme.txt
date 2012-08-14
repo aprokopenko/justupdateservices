@@ -4,23 +4,26 @@ Plugin Name: Just Update Services Merge
 Plugin URI: 
 Author: Alexander Prokopenko
 Author URI: http://justcoded.com/
-Tags: 
+Tags: update services, ping sites, seo
 Requires at least: 3.0.0
 Tested up to: 3.4.1
 Donate link: 
 License: GNU General Public License v2
 Stable tag: trunk
 
-Short description
+Provide simple interface to edit "Update Services" list.
 
 == Description ==
 
-full description
+Just Update Services Merge plugin is just interface to edit standard WordPress feature "Update Services" (http://codex.wordpress.org/Update_Services).
+In this interface you can Add new ping URLs without being afraid they will be duplicated. Also you can add Delete list to clean up your list.
+And also there is very good feature - do test ping to sites to check if they are still alive. So you can ccheck your ping list and delete broken URLs.
 
 == Installation ==
 
 1. Download, unzip and upload to your WordPress plugins directory
 2. Activate the plugin within you WordPress Administration Backend
+3. Open Settings > Just Update Services page to edit your Update Services list
 
 == Upgrade Notice ==
 
@@ -33,7 +36,7 @@ full description
 2. screen 2
 
 == Changelog ==
-* Version 0.1 :
-	* First version beta
+* Version 1.0 :
+	* First beta version
 
 == Frequently Asked Questions ==

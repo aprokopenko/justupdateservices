@@ -1,0 +1,51 @@
+.jusm-holder{
+	padding:0 1px;
+	overflow:hidden;
+}
+#jusm-edit-box{padding:30px 0 0;}
+.jusm-holder .width-49{width:49%;}
+.jusm-holder h3{margin:0;}
+.jusm-holder  textarea{
+	min-width:100%;
+	max-width:100%;
+}
+.jusm-ping-sites-list{
+	line-height:20px;
+	border-top:1px solid #ddd;
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+}
+.jusm-ping-sites-list li{
+	overflow:hidden;
+	margin:0;
+	padding:2px 10px;
+	border-bottom:1px solid #ddd;
+}
+.jusm-ping-sites-list li.odd{background:#eee;}
+.jusm-ping-sites-list li:hover{background:#ddd;}
+.jusm-row-options {
+	float:right;
+	width:50px;
+	margin:2px 5px;
+}
+.jusm-site-info,
+.jusm-delete-variable{
+	width:16px;
+	height:16px;
+	float:left;
+}
+.jusm-site-loader{background:url(loader.gif) no-repeat 0 0 !important;}
+.jusm-site-good{background:url(icon-tick-circle.png) no-repeat 0 0;}
+.jusm-site-bad{background:url(icon-minus-circle.png) no-repeat 0 0;}
+
+.jusm-delete-variable{float:right;}
+.jusm-delete-variable  img{float:right;}
+.jusm-btn-ping .jusm-text-ping{display:block;}
+.jusm-btn-ping .jusm-text-stop{display:none;}
+.jusm-btn-ping-on .jusm-text-ping{display:none;}
+.jusm-btn-ping-on .jusm-text-stop{display:block;}
+.jusm-note{
+	font-size:10px;
+	line-height:12px;
+	color:#888;
+}
