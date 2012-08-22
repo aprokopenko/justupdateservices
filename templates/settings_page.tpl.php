@@ -1,5 +1,5 @@
 <?php
-	$assets_path = WP_PLUGIN_URL.'/just-wp-variables/assets';
+	$assets_path = WP_PLUGIN_URL.'/just-update-services-merge/assets';
 ?>
 <div class="wrap">
 	<div class="icon32 icon32-posts-page" id="icon-edit"><br></div>
@@ -51,6 +51,7 @@
 							<span class="jusm-text-stop">Stop</span>
 						</a>
 					</div>
+					<p class="jusm-note">You have <?php echo count($jusm_ping_sites); ?> site(s) in Update Services list.</p>
 					<ul class="jusm-ping-sites-list">
 					<?php
 						$odd = 0;
